@@ -82,9 +82,13 @@ docker run -d --name meting -p 3000:3000 intemd/meting-api:latest
 
    - 名称随便。
    - 类型选云服务。
-   - 云服务选择"函数工作流 FunctionGraph"。
-   - 下一步策略勾选"SWR Admin"即可。
+   - 云服务选择"函数工作流 FunctionGraph"。（看下面第一张图）
+   - 下一步策略勾选"SWR Admin"即可。(看下面第二张图)
    - 一路完成，返回创建函数页面选择刚创建的委托，创建函数。
+
+![](assets/FunctionGraph.png)
+![](assets/SWR.png)
+
 
 6. 设置函数
 
